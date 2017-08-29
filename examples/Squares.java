@@ -13,16 +13,16 @@ public class Squares
 		// this for loop runs 5 time and produces the square of the inputted number each time
 		for (count = 0; count < 5; count++)
 		{
-			System.out.println("Please enter a number: ");
+			System.out.print("Please enter a number\n\t(less then 46341): ");
 			num = scanner.nextInt();
 			if (num < 46341)
 			{
 				result = num * num;
-				System.out.println("The result of squaring "+num+" is: "+result);
+				System.out.println("The result of squaring "+num+" is: \t"+result+"\n");
 			}
 			else
 			{
-				System.out.println("Input number "+num+" is too large");
+				System.out.println("Input number "+num+" is too large\n");
 			}
 		}
 		// closes the scanner
